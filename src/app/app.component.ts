@@ -6,5 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'semi1';
+  title = 'Semi-Project';
+
+  label = 'Load Status';
+
+  max = 100;
+  value = 90;
+
+  onChange(progressValue:any) {
+    console.log("Progress is " + progressValue +"%")
+  }
+  onClick(progressValue:any) {
+    console.log("Progress is " + progressValue +"%")
+  }
 }

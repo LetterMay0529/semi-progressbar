@@ -1,0 +1,42 @@
+
+  
+  .container{
+    width: 700px;
+    margin: auto;
+    margin-top: 6%;
+    border-radius: 10px;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    box-shadow: rgba(99, 199, 149, 0.35) 0px 5px 15px;
+  }
+  
+  .lbl{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .progress{
+    height: 3rem;
+    background-color: rgb(16, 202, 131);
+    border-radius: 10px;
+  }
+  
+  .val{
+    color: #fff;
+    -webkit-text-stroke: 2px #000;
+    margin-left: 280px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    
+  }
+  
+  .back{
+    height: 3rem;
+    width: 100%;
+    background-color: rgb(154, 209, 149);
+    border-radius: 10px;
+    outline: 2px solid rgb(43, 146, 103);
+  }
